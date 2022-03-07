@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio photographer</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+    </head>
+    <main class="main">
+        <header class="header">
+            <p class="header__logo">Mirro</p>
+            <div class="header__menuconteiner">
+                <div class="header__burger " >
+                    <span class="header__line"></span>
+                    <span class="header__line"></span>
+                    <span class="header__line"></span>
+                </div>
+                <nav class="header__menu menu">
+                    <a class="menu__link" href="#presets">Presets</a>
+                    <a class="menu__link" href="">Prints</a>
+                    <a class="menu__link" href="">Store</a>
+                    <a class="menu__link" href="#aboutme">About</a>
+                    <a class="menu__link" href="#contactme">Contact</a>
+                </nav>
+                <div class="header_buycontainer buycontainer">
+                    <div class="buycontainer__limitation">
+                        <img src="img\buy.png" alt="Card" class="buycontainer__basket">
+                        <a class="buycontainer__opencard">Cart</a>
+                        <p class="buycontainer__amount"><span class="buycontainer__text">0</span></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <body class="body">
+            <article class="meeting" id="aboutme">
+                <div class="meeting__limitation">
+                    <div class="meeting__about">
+                        <h1 class="meeting__title _anim_transform_title _anim-items">Hi, I'm James Mirro & I'm a photographer</h1>
+                        <p class="meeting__text _anim-items _anim_transform">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
+                        <a class="meeting__readmore readmore _anim-items _anim_scale" href="">Read more</a>
+                    </div>
+                    <img src="img\Avatar.png" alt="Avatar" class="meeting__avater _anim-items _anim_scale">
+                </div>
+            </article>
+
+            <article class="services">
+                <div class="services__limitation limitation">
+                    <svg width="140" height="19" class="svgline">
+                        <polyline class="svgline__line" points="1,1 16,18 31,1 46,18 61,1 76,18 91,1 106,18 121,1 136,18"/>
+                    </svg>
+                    <h2 class="services__title _anim_transform_title _anim-items">Services</h2>
+                    <p class="services__description description _anim-items _anim_transform">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                    <div class="services__container container _anim-items">
+                        <div class="servicecard _anim_transform">
+                            <div class="servicecard__logocontainer">
+                                <img src="img\Shape.png" alt="Wedding photography" class="servicecard__logo" id="wedding">
+                            </div>
+                            <h3 class="servicecard__title">Wedding Photography</h3>
+                            <p class="servicecard__description ">Wedding photography is often called the bread and butter of photographers — but that doesn't mean it has to be boring. Quite the opposite!</p>
+                            <a class="servicecard__readmore watchmore" href="">Read more <span class="servicecard__arrow watchmore__arrow"></span></a>
+                        </div>
+                        <div class="servicecard _anim_transform">
+                            <div class="servicecard__logocontainer">
+                                <img src="img\bread.png" alt="Sports photography" class="servicecard__logo" id="sports">
+                            </div>
+                            <h3 class="servicecard__title ">Sports Photography</h3>
+                            <p class="servicecard__description ">Sports photography is awesome. Sitting on the sidelines with a massive telephoto allows me to get right into the action — I love shooting sports where there's a lot of explosive movement</p>
+                            <a class="servicecard__readmore watchmore" href="">Read more <span class="servicecard__arrow watchmore__arrow"></span></a>
+                        </div>
+                        <div class="servicecard _anim_transform">
+                            <div class="servicecard__logocontainer">
+                                <img src="img\Contact.png" alt="Portrait Photography" class="servicecard__logo" id="portrait">
+                            </div>
+                            <h3 class="servicecard__title ">Portrait Photography</h3>
+                            <p class="servicecard__description ">Who doesn't love portrait photography? I love being able to capture that expression, quirk, smile or whatever, that sort of defines a person.</p>
+                            <a class="servicecard__readmore watchmore" href="">Read more <span class="watchmore__arrow watchmore__arrow"></span></a>
+                        </div>
+                        <div class="servicecard _anim_transform">
+                            <div class="servicecard__logocontainer">
+                                <img src="img\Architecture.png" alt="Architecture photography" class="servicecard__logo" id="architecture">
+                            </div>
+                            <h3 class="servicecard__title ">Architecture Photography</h3>
+                            <p class="servicecard__description ">The nice thing about shooting architecture (in my opinion) is that it's so easy to do. Seriously, just pick up your camera and get out there.</p>
+                            <a class="servicecard__readmore watchmore" href="">Read more <span class="servicecard__arrow watchmore__arrow"></span></a>
+                        </div>
+                        <div class="servicecard _anim_transform">
+                            <div class="servicecard__logocontainer">
+                                <img src="img\Pigeon.png" alt="Animal Photography" class="servicecard__logo" id="animal">
+                            </div>
+                            <h3 class="servicecard__title">Animal Photography</h3>
+                            <p class="servicecard__description ">Whenever I'm travelling I always make sure to pack gear that allows me to capture the local wildlife. The eagle that takes flight in this picture is probably my most prized image.</p>
+                            <a class="servicecard__readmore watchmore" href="">Read more <span class="servicecard__arrow watchmore__arrow"></span></a>
+                        </div>
+                        <div class="servicecard _anim_transform">
+                            <div class="servicecard__logocontainer">
+                                <img src="img\Food.png" alt="Food Photography" class="servicecard__logo" id="food">
+                            </div>
+                            <h3 class="servicecard__title">Food Photography</h3>
+                            <p class="servicecard__description ">I do food photography for blogs, restaurants, influencers, YouTube channels — but most importantly (if I manage to cook something that looks good) — I do food photography for myself.</p>
+                            <a class="servicecard__readmore watchmore" href="">Read more <span class="servicecard__arrow watchmore__arrow"></span></a>
+                        </div>
+                        <div class="servicecard _anim_transform">
+                            <div class="servicecard__logocontainer">
+                                <img src="img\Nature.png" alt="Nature Photography" class="servicecard__logo" id="nature">
+                            </div>
+                            <h3 class="servicecard__title ">Nature Photography</h3>
+                            <p class="servicecard__description">Landscape photography just never gets old. Someone told me that those are the kinds of pictures you never look. Well, I don't agree.</p>
+                            <a class="servicecard__readmore watchmore" href="">Read more <span class="servicecard__arrow watchmore__arrow"></span></a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="presetstore" id="presets">
+                <div class="limitation">
+                    <svg width="140" height="19" class="svgline">
+                        <polyline class="svgline__line" points="1,1 16,18 31,1 46,18 61,1 76,18 91,1 106,18 121,1 136,18"/>
+                    </svg>
+                    <h2 class="presetstore__title _anim_transform_title _anim-items">Preset Store</h2>
+                    <p class="description _anim-items _anim_transform">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.</p>
+                    <div class="presetstore__container _anim-items">
+                        <div class="presetcard">
+                            <img src="img\Pack_vol_1.png" alt="Pack_vol_1" class="presetcard__img _anim_scale">
+                            <div class="presetcard__info _anim_transform">
+                                <h3 class="presetcard__title">Mirro Preset Pack Vol. 01</h3>
+                                <p class="presetcard__description">The first volume is my go-to presets when shooting action sports. Just the right amount of contrast and highlights to make your photo (literally) pop!</p>
+                            </div>
+                        </div>
+                        <div class="presetcard">
+                            <img src="img\Pack_vol_2.png" alt="Pack_vol_2" class="presetcard__img _anim_scale">
+                            <div class="presetcard__info _anim_transform">
+                                <h3 class="presetcard__title">Mirro Preset Pack Vol. 02</h3>
+                                <p class="presetcard__description">Vol. 02 is dedicated solely to landscape photography. Pay attention to your exposure while out there and these presets will make your photos look great.</p>
+                            </div>
+                        </div>
+                        <div class="presetcard">
+                            <img src="img\Pack_vol_3.png" alt="Pack_vol_3" class="presetcard__img _anim_scale">
+                            <div class="presetcard__info _anim_transform">
+                                <h3 class="presetcard__title ">Mirro Preset Pack Vol. 03</h3>
+                                <p class="presetcard__description">These are a collection of my most used wedding presets — use with caution as you'll end up loving wedding photography.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="watchmore servicecard__presetstore _anim-items _anim_scale" href="">Preset store <span class="servicecard__arrow watchmore__arrow"></span></a>
+                </article>
+                <article class="contact" id="contactme">
+                    <div class="contact__container _anim_scale _anim-items">
+                        <p class="contact__description">Wan't to work together? Follow the link and let's get in touch.</p>
+                        <a class="readmore" >Contact</a>
+                    </div>
+                </div>
+            </article>
+        </body>
+
+        <footer class="footer">
+            <div class="limitation">
+                <img src="img\Logo.png" alt="Mirro" class="footer__logo">
+                <div class="footer__containermenu">
+                    <div class="menuitem">
+                        <h3 class="menuitem__title">Pages</h3>
+                        <ul class="menuitem__list">
+                            <li class="menuitem__link"><a href="index.html">Home</a></li>
+                            <li class="menuitem__link"><a href="">Store</a></li>
+                            <li class="menuitem__link"><a href="#aboutme">About</a></li>
+                            <li class="menuitem__link"><a href="#contactme">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="menuitem">
+                        <h3 class="menuitem__title">Preset packs</h3>
+                        <ul class="menuitem__list">
+                            <li class="menuitem__link"><a href="">Mirro Preset Pack Vol. 01</a></li>
+                            <li class="menuitem__link"><a href="">Mirro Preset Pack Vol. 02</a></li>
+                            <li class="menuitem__link"><a href="">Mirro Preset Pack Vol. 03</a></li>
+                            <li class="menuitem__link"><a href="">Mirro Preset Pack Vol. 04</a></li>
+                        </ul>
+                    </div>
+                    <div class="menuitem">
+                        <h3 class="menuitem__title">Utility Pages</h3>
+                        <ul class="menuitem__list">
+                            <li class="menuitem__link"><a href="">Instructions</a></li>
+                            <li class="menuitem__link"><a href="">Style guide</a></li>
+                            <li class="menuitem__link"><a href="">Licenses</a></li>
+                            <li class="menuitem__link"><a href="">Changelog</a></li>
+                            <li class="menuitem__link"><a href="">404</a></li>
+                        </ul>
+                    </div>
+                    <div class="menuitem">
+                        <h3 class="menuitem__title">Newsletter</h3>
+                        <p class="menuitem__link">Subscribe to my newsletter where I share news about upcoming printings and preset sales</p>
+                        <form class="menuitem__form">
+                            <input type="email" placeholder="Email address" class="menuitem__email">
+                            <button type="submit" value="Submit" class="menuitem__submit">Submit</button>
+                        </form>
+                    </div>
+                    <div class="menuitem">
+                        <h3 class="menuitem__title">Store categories</h3>
+                        <ul class="menuitem__list">
+                            <li class="menuitem__link"><a href="#presets">Presets</a></li>
+                            <li class="menuitem__link"><a href="">Prints</a></li>
+                        </ul>
+                    </div>
+                    <div class="menuitem">
+                        <h3 class="menuitem__title">Business Areas</h3>
+                        <ul class="menuitem__list">
+                            <li class="menuitem__link"><a href="">Wedding Photography</a></li>
+                            <li class="menuitem__link"><a href="">Sports Photography</a></li>
+                            <li class="menuitem__link"><a href="">Portrait Photography</a></li>
+                            <li class="menuitem__link"><a href="#architecture">Architecture Photography</a></li>
+                            <li class="menuitem__link"><a href="">Animal Photography</a></li>
+                            <li class="menuitem__link"><a href="">Food Photography</a></li>
+                            <li class="menuitem__link"><a href="">Nature Photography</a></li>
+                        </ul>
+                    </div>  
+                </div>
+                <div class="footer__bottom">
+                    <p class="footer__text">© Mirro Photography, LLC. All rights reserved. Powered by</p>
+                    <p class="footer__text">Webflow</p>
+                    <div class="footer__logos">
+                        <a class="footer__logoitem" href="">
+                            <img src="img\LinkedIn.png" alt="LinkedIn" >
+                        </a>
+                        <a class="footer__logoitem" href="">
+                            <img src="img\Facebook.png" alt="Facebook">
+                        </a>
+                        <a class="footer__logoitem" href="">
+                            <img src="img\Instagram-Icon.png" alt="Instagram">  
+                        </a>
+                        <a class="footer__logoitem" href="">
+                            <img src="img\Twitter.png" alt="Twitter">                  
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </main>
+</html>
