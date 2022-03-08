@@ -451,8 +451,25 @@
     .meeting__avater{
      max-width: 55%;   
     }
+    .header{
+        margin: 0 8%;
+    }
+    .limitation{
+        margin: 0 8%;
+    }
+    .meeting__limitation{
+        padding: 0 8%;
+    }
+    .servicecard{
+        padding: 20px;
+    }
+}
+@media screen and (max-width:1050px) {
     .container{
         justify-content: center;
+    }
+    .servicecard{
+        flex-basis: 40%;
     }
 }
 @media screen and (max-width:860px) {
@@ -552,7 +569,7 @@
         right: 0%;
         flex-direction: column; 
         background-color: white;
-        width: 45%;
+        width: 46%;
         border-radius: 0 0 12px 12px;
         visibility: hidden;
         opacity: 0;
@@ -617,7 +634,12 @@
         width: 35%;
     }
     .header__menu{
-        width: 55%;
+        width: 57%;
+    }
+}
+@media screen  and (max-width:400px) {
+    .header__menu{
+        width: 58%;
     }
 }
 @media screen and (max-width:345px) {
